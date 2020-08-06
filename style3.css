@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.parent{
+	margin:0;
+  padding:0;;
+  display: flex;
+  flex-direction: row;
+background-image: url(./dynamicwall.png);
+background-position: center;
+background-size: cover;
+display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    font-family: 'Martel', serif;  
+
+}
+
+.child1 img{
+	width:85%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.child1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20rem;
+    height: 75vh;
+    margin: 4rem;
+    text-align: center;
+    margin-left: 5rem;
+    position: relative;
+    transform: rotate(0deg) skew(0deg) scale(.8);
+    transition: 0.8s;
+}
+.child1 p{
+    margin:0.7rem;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.child2{
+	border: 2px solid black;
+    border-radius: 10px;
+    width: 50rem; 
+    text-align: left;
+    margin-left: 5px;
+    margin-top:5rem;
+    margin-right: 5px;
+    margin-bottom: auto;
+    transition: 1s;
+    font-family: 'Martel', serif;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+ol,ul{
+    margin-left: 0.9rem;
+}
+table,td,th{
+    border: 1px solid black;
+}
+th,td{
+    padding: 0.5rem;
+}
+.child2 p{
+    margin-bottom: 0.9rem;
+}
+.child1:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+}
+.child2:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+}

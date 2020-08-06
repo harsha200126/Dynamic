@@ -1,0 +1,47 @@
+{
+	"details": {
+		"image": "avatar_ben__1_.webp",
+		"name": "harsha",
+		"email": "abcd123@gmail.com",
+		"number": "123456789",
+		"address": "55-18-2,white street,GOA"
+	},
+	"careerobjective": {
+		"info": "To become full stack devloper"
+	},
+	"educationalqualification": [{
+
+			"degree": "B.tech",
+			"institute": "lendi institute of engineering and technology",
+			"passoutyear": "Doing first YEAR",
+			"percentage": "NA"
+		},
+		{
+			"degree": "Intermediate",
+			"institute": "narayana junior college",
+			"passoutyear": "june-2018",
+			"percentage": "80%"
+		},
+		{
+			"degree": "SSC",
+			"institute": "sri sarada vidya nilayam",
+			"passoutyear": "june-2016",
+			"percentage": "80%"
+		}
+
+	],
+
+	"techinicalskills": [{
+			"title": "programming langauges",
+			"info": ["c,c++,java,python,R"]
+		},
+		{
+			"title": "web designing",
+			"info": ["HTML,CSS"]
+		}
+	],
+
+	"ACHIEVEMAENTS": {
+		"info": ["Attended a workshop on java at udemy academyy in 2019,Attended a workshop on spring framework at udemy academyy in 2019"]
+	}
+}
